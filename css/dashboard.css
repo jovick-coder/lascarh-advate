@@ -87,6 +87,9 @@ body {
   border-width: 0;
   border-radius: 0;
 }
+.navbar .input-form {
+ width: 80%;
+}
 
 .form-control-dark {
   color: #fff;
