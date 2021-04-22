@@ -67,18 +67,6 @@
               Advate preview
             </a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="shopping-cart"></span>
-              Products
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="users"></span>
-              Customers
-            </a>
-          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="post-advert.html">
               <!-- <span data-feather="bar-chart-2"></span> -->
@@ -111,13 +99,7 @@
               <span  ></span>
               Update profile
             </a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span  ></span>
-              Social engagement
-            </a>
-          </li> -->
+          </li> 
           <li class="nav-item">
             <!-- remove the href  -->
             <a class="nav-link" href="login.html">
@@ -131,13 +113,58 @@
 </section>
 <section>
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <div class="d-fle x justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
           <h1 class="h2">Post-advert</h1>
         </div>
-        <h2>Section title</h2>
+        <section class="container">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+            <form method="post" action="" enctype='multipart/form-data'>
+              
+              <!-- <div class="img-div" style="max-width: 100%; overflow: hidden;"> -->
+                 <div class="container">
+                <div class="row">
+                  <!-- <div class="col-md-4">.col-md-4</div> -->
+                  <div class="col-md-4 offset-md-4">
+                    
+                    <!-- <div class="position-rel ative">
+                      <div class="position-absol ute top-50 start-100 translate-m iddle"> -->
+                        
+                        <img src="img/pexels-mentatdgt-937541.jpg" id="showimage" class="rounded mx-auto d-block img-fluid img-thumbnail w-100" style="min-width: 400px; max-height: 300px;" alt="">
+                        
+                        <!-- </div>
+                        </div> -->
+                        <input accept="image/*" type='file' id="file" style="display: none;" name='file' onchange="viewimage(this)" />
+                        <label  for="file" class="b tn btn-second ary my3 mx5 text-center">Upload image</label>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+                <div class="row text-center">
+                  <div class="col-5">
+                  <img src="img/pexels-mentatdgt-937541.jpg" id="showimage" class="rounded mx-auto d-block img-fluid img-thumbnail w-100" style="min-width: 400px; max-height: 300px;" alt="">
+                 # your images here...
+                </div>
+               </div>
+
+               <!-- <div class="row">
+                <div class="col-4">
+                  <img class="mx-auto d-block" src="img/pexels-mentatdgt-937541.jpg">
+                </div>
+              </div> -->
+              
+              </form>
+
+            
+              
+          </div>
+        </section>
+        
     </main>
 </section>
-    <!-- <script src="js/sidebars.js"></script> -->
+
+    <script src="js/main.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
