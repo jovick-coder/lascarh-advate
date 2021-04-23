@@ -90,6 +90,16 @@ body {
 
 }
 
+.quick{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.quick li{
+ float: left;
+ margin: 5px;
+}
+
 footer ul{
   list-style-type:outside;
   list-style: none;
