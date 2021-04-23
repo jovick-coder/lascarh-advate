@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/sidebars.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
     <style>
@@ -147,50 +147,53 @@
           <h1 class="h2">Post-advert</h1>
         </div> 
         <section class="container">
-          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+          <div class="d-md-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
             <form method="post" action="" enctype='multipart/form-data'>
-              
-              <!-- <div class="img-div" style="max-width: 100%; overflow: hidden;"> -->
+        
                  <div class="container">
                 <div class="row">
-                  <!-- <div class="col-md-4">.col-md-4</div> -->
-                  <div class="col-md-4 offset-md-4">
-                    
-                    <!-- <div class="position-rel ative">
-                      <div class="position-absol ute top-50 start-100 translate-m iddle"> -->
-                        
-                        <img src="img/pexels-mentatdgt-937541.jpg" id="showimage" class="rounded mx-auto d-block img-fluid img-thumbnail w-100" style="min-width: 400px; max-height: 300px;" alt="">
-                        
-                        <!-- </div>
-                        </div> -->
+                 <div class="col-md-4 offset-md-4">
+                   <label for="file">
+                     <img src="img/icons/upload.svg" id="showimage" class="rounded mx-auto d-block img-fluid img-thumbnail w-100" style="min-width: 300px; max-height: 300px;" alt="">
+                     make Upload
+                   </label>
+                      
                         <input accept="image/*" type='file' id="file" style="display: none;" name='file' onchange="viewimage(this)" />
-                        <label  for="file" class="b tn btn-second ary my3 mx5 text-center">Upload image</label>
                       </div>
                     </div>
-                    
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-4">2</div>
+                        <div class="col-4">
+                          <form action="">
+                            <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Ads Title">
+                          <textarea name="" id="" cols="5" rows="2" class="form-control" placeholder="Make some note"></textarea>
+                            </div>
+                            <div>
+                              <input type="submit" value="Make Ads." class="btn btn-primary">
+                            </div>
+                          </form>
+                        </div>
+                        <div class="col-4">2</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                
-                <div class="row text-center">
-                  <div class="col-5">
-                  <img src="img/pexels-mentatdgt-937541.jpg" id="showimage" class="rounded mx-auto d-block img-fluid img-thumbnail w-100" style="min-width: 400px; max-height: 300px;" alt="">
-                 # your images here...
-                </div>
-               </div>
-
-               <!-- <div class="row">
-                <div class="col-4">
-                  <img class="mx-auto d-block" src="img/pexels-mentatdgt-937541.jpg">
-                </div>
-              </div> -->
-              
               </form>
+              
 
             
               
           </div>
         </section>
-        
+        <div class="flexbox">
+          <div class="space-around">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+          </div>
+        </div>
     </main>
 </section>
 
