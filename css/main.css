@@ -89,3 +89,13 @@ body {
   }
 
 }
+
+footer ul{
+  list-style-type:outside;
+  list-style: none;
+  padding-left: 5px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: greenyellow;
+}
