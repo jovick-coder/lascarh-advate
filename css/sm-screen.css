@@ -1,0 +1,299 @@
+@media (min-width: 347px) and (max-width: 400px) {
+
+
+
+    #topimg-section{
+        display: block;
+        background-color: aliceblue;
+        width: 100%;
+        height: 400px;    
+        position: relative;
+        overflow: hidden;
+    }
+    #topimg-section .top-img img{
+        width: 100%;
+        min-height: 400px;
+        -webkit-filter: contrast(0.5);
+        filter: contrast(0.5);
+        
+    }
+    #topimg-section  .top-text{
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(2, 2, 2, 0.474);
+    
+    }
+    #topimg-section  .top-text span{
+        font-size: 30px;
+        font-weight: bolder;
+        color:#ffffff;
+    }
+    #topimg-section  .top-text p{
+        font-size: 15px;
+        font-weight: bold;
+        color:#ffffff;
+    }
+    
+    
+/* search section styling */
+#search-section{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 5px;
+}
+
+#search-section .search-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(41, 40, 40);
+    width: auto;
+    padding: 5px;
+    /* margin: 100px; */
+}
+#search-section .search-container .item{
+    margin:5px;
+    width: 45%;
+}
+#search-section .search-container .item input{
+    margin-top: 5px;
+}
+
+
+#icons-section{
+    /* background-color: aqua; */
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+#icons-section .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+#icons-section .icons-container .card{
+    width: 120px;
+    height: 120px;
+    background-color: #ddd;
+    padding: 5px;
+    margin: 20px;
+}
+#icons-section .icons-container .card:hover{
+    background-color: rgb(238, 238, 238);
+    box-shadow: 1px 1px 5px 1px rgba(2, 2, 2, 0.474);
+
+}
+#icons-section .icons-container .card .item{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+#icons-section .icons-container .card .item{
+    margin: auto;
+}
+
+/* footer section  */
+#footer-section{
+    background-color: rgb(22, 22, 22);
+    color: #ffffff;
+    width: 100%;
+}
+#footer-section img{
+    width: 100px;
+    margin: 20px;
+}
+#footer-section .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* margin: auto; */
+}
+#footer-section .footer-container .item{
+    width: 30%;
+    min-width: 200px;
+    margin: 10px 20px;
+    /* max-width: 300px; */
+}
+#footer-section .footer-container .item span{
+    display: block;
+    font-size: large;
+    /* font-weight: 20px; */
+    font-weight: bold;
+    border-bottom: solid 5px blue;
+    /* width: 200px; */
+    /* float: right; */
+}
+#footer-section .footer-container .item .social-icons ul{
+float: left;
+margin: 0;
+padding: 0;
+}
+#footer-section .footer-container .item .social-icons ul li{
+float: left;
+margin: 0;
+padding: 0;
+}
+#footer-section .footer-container .item .social-icons ul li img{
+width: 15px;
+margin: 5px 5px;
+padding: 0;
+filter: invert();
+}
+
+
+}
+
+@media (min-width: 0px) and (max-width: 346px) {
+    #topimg-section{
+        display: block;
+        /* background-color: aliceblue; */
+        width: 100%;
+        height: 400px;    
+        position: relative;
+        overflow: hidden;
+    }
+    #topimg-section .top-img img{
+        width: 100%;
+        min-height: 400px;
+        -webkit-filter: contrast(0.5);
+        filter: contrast(0.5);
+        
+    }
+    #topimg-section  .top-text{
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(2, 2, 2, 0.474);
+    
+    }
+    #topimg-section  .top-text span{
+        font-size: 30px;
+        font-weight: bolder;
+        color:#ffffff;
+    }
+    #topimg-section  .top-text p{
+        font-size: 15px;
+        font-weight: bold;
+        color:#ffffff;
+    }
+    
+    
+/* search section styling */
+#search-section{
+    /* background-color: #ffffff; */
+    width: 100%;
+    padding: 5px;
+}
+
+#search-section .search-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: black; */
+    width: auto;
+    padding: 5px;
+    /* margin: 100px; */
+}
+#search-section .search-container .item{
+    margin:5px;
+    width: 45%;
+}
+#search-section .search-container .item input{
+    margin-top: 5px;
+}
+
+
+#icons-section{
+    /* background-color: aqua; */
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+#icons-section .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+#icons-section .icons-container .card{
+    width: 100px;
+    height: 120px;
+    background-color: #ddd;
+    padding: 5px;
+    margin: 15px;
+}
+#icons-section .icons-container .card:hover{
+    background-color: rgb(238, 238, 238);
+    box-shadow: 1px 1px 5px 1px rgba(2, 2, 2, 0.474);
+
+}
+#icons-section .icons-container .card .item{
+    margin: auto;
+}
+
+
+/* footer section  */
+#footer-section{
+    background-color: rgb(22, 22, 22);
+    color: #ffffff;
+    width: 100%;
+}
+#footer-section img{
+    width: 100px;
+    margin: 20px;
+}
+#footer-section .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* margin: auto; */
+}
+#footer-section .footer-container .item{
+    width: 30%;
+    min-width: 200px;
+    margin: 10px 20px;
+    /* max-width: 300px; */
+}
+#footer-section .footer-container .item span{
+    display: block;
+    font-size: large;
+    /* font-weight: 20px; */
+    font-weight: bold;
+    border-bottom: solid 5px blue;
+    /* width: 200px; */
+    /* float: right; */
+}
+#footer-section .footer-container .item .social-icons ul{
+float: left;
+margin: 0;
+padding: 0;
+}
+#footer-section .footer-container .item .social-icons ul li{
+float: left;
+margin: 0;
+padding: 0;
+}
+#footer-section .footer-container .item .social-icons ul li img{
+width: 15px;
+margin: 5px 5px;
+padding: 0;
+filter: invert();
+}
+
+
+    
+}

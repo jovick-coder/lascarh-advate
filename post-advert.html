@@ -141,59 +141,48 @@
         </div>
       </nav>
   </section>
+  <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
 <section>
-    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        <div class="d-fle x justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h1 class="h2">Post-advert</h1>
-        </div> 
-        <section class="container">
-          <div class="d-md-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-            <form method="post" action="" enctype='multipart/form-data'>
-        
-                 <div class="container">
-                <div class="row">
-                 <div class="col-md-4 offset-md-4">
-                   <label for="file">
-                     <img src="img/icons/upload.svg" id="showimage" class="rounded mx-auto d-block img-fluid img-thumbnail w-100" style="min-width: 300px; max-height: 300px;" alt="">
-                     make Upload
-                   </label>
-                      
-                        <input accept="image/*" type='file' id="file" style="display: none;" name='file' onchange="viewimage(this)" />
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-4">2</div>
-                        <div class="col-4">
-                          <form action="">
-                            <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Ads Title">
-                          <textarea name="" id="" cols="5" rows="2" class="form-control" placeholder="Make some note"></textarea>
-                            </div>
-                            <div>
-                              <input type="submit" value="Make Ads." class="btn btn-primary">
-                            </div>
-                          </form>
-                        </div>
-                        <div class="col-4">2</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              
-
-            
-              
-          </div>
-        </section>
-        <div class="flexbox">
-          <div class="space-around">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Post-advert</h1>
+  </div> 
+    <section class="post-form-section">
+      <div class="flexbox space-around">
+        <label for="file" >
+        <div class="img-div">
+          <img src="img/icons/cloud-upload.svg" id="showimage"  alt="Upload" class="upload-img ">
+          <div class="ads">
+            <!-- <span class="badge bg-secondary m-3 text-light">Info</span> -->
           </div>
         </div>
+        <div class="d-flex justify-content-around flex-wrap">
+
+         <div class="">
+          <span role="button" class="btn btn-secondary m x-2 my-4">Make a post</span>
+         </div>
+        </div>
+      </label>
+      <input accept="image/*" type='file' id="file" style="display: none;" name='file' onchange="viewimage(this)" />
+    </div>
+      <div class="d-flex justify-content-around flex-wrap">
+       <div class="">
+        <h3>Say something about your Ads.</h3>
+        <sup><i>it makes it more explanatry </i></sup>
+        <div class="">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Ads. title">
+          </div>
+          <div class="form-group py-1">
+            <textarea name="" id="" cols="20" rows="2" class="form-control"></textarea>
+          </div>
+         <span role="button" class="btn btn-secondary my-2 ">Make a post</span>
+        </div>
+       </div>
+      </div>
+
+          
+        </div>
+    </section>
     </main>
 </section>
 
